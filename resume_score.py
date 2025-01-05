@@ -53,7 +53,7 @@ def generate_mcqs(keywords):
     # Construct the query
     query = {"human_input": f"""
 You are an advanced AI model trained to generate high-quality multiple-choice questions (MCQs).
-Based on the provided list of skills: {keywords}, create **exactly 10 MCQs**. Each MCQ should focus on most important concepts related to the internal topics of each skill.
+Based on the provided list of skills: {keywords}, create **exactly 30 MCQs**. Each MCQ should focus on most important concepts related to the internal topics of each skill.
 For example, if the keyword is "Python," the questions should be derived from core Python concepts, like data structures, syntax, or libraries.
 
 The MCQs should follow this structure:
@@ -62,7 +62,7 @@ The MCQs should follow this structure:
 2. Four options (labeled as A, B, C, and D).
 3. Only one correct answer per question, with the other options serving as plausible distractors.
 
-Do not provide any other information, explanations, or extra text. Output **only** the 10 MCQs in proper structure, like this:
+Do not provide any other information, explanations, or extra text. Output **only** the 30 MCQs in proper structure, like this:
 
 1. Question text...
    - A) Option 1
