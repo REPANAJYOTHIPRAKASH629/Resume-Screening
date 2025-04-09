@@ -6,3 +6,4 @@ python-docx
 langchain
 langchain-core
 langchain-google-genai
+streamlit-webrtc

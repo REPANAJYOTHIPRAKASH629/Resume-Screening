@@ -15,7 +15,7 @@ from langchain.schema.runnable import RunnableLambda, RunnablePassthrough
 from langchain_core.messages import SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from streamlit_webrtc import webrtc_streamer
-import whisper
+# mport whisper
 import re
 import av
 import os
